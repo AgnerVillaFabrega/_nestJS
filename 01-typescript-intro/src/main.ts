@@ -1,7 +1,7 @@
 import './style.css'
 // import { name, age } from './bases/01-types.ts'
 import { setupCounter } from './counter.ts'
-import { charmander } from './bases/04-injection.ts'
+import { charmander } from './bases/06-decorators2.ts'
 // import { pikachu } from './bases/03-class.ts'
 // import { bulbasor, pokemons } from './bases/02-objects.ts'
 
