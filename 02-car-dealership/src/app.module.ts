@@ -5,7 +5,6 @@ import { CarsModule } from './cars/cars.module';
   imports: [CarsModule],
   controllers: [],
   providers: [],
-  exports:[],
+  exports: [],
 })
-
-export class AppModule { }
+export class AppModule {}

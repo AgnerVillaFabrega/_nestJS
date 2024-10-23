@@ -22,11 +22,11 @@ export class CarsController {
 
   @Get()
   getAllCars() {
-    return this.carsService.findAll()
+    return this.carsService.findAll();
   }
 
   @Get(':id')
-  getCarById(@Param('id',ParseUUIDPipe) id: string) {
+  getCarById(@Param('id', ParseUUIDPipe) id: string) {
     console.log({ id });
     return this.carsService.findOneById(id);
   }
@@ -38,9 +38,9 @@ export class CarsController {
 
   @Patch(':id')
   updateCar(
-    @Param('id', ParseUUIDPipe) id : string,
-    @Body() updateCarDto: UpdateCarDto
-  ){
+    @Param('id', ParseUUIDPipe) id: string,
+    @Body() updateCarDto: UpdateCarDto,
+  ) {
     return this.carsService.update(id, updateCarDto);
   }
 

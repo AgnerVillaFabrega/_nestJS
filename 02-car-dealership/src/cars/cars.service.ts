@@ -33,7 +33,7 @@ export class CarsService {
     {
       id: uuid(),
       brand: 'Toyota',
-      model: 'Sienna',
+      model: 'Siena',
       year: '2000',
     },
   ];
