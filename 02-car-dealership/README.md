@@ -8,6 +8,14 @@ Populate DB
 ```
   http://localhost:3000/seed
 ```
+
+## How deploy prod backend?
+This commands build the dist folder for deploy on hosting service
+```
+  yarn build
+  yarn start:prod
+```
+ 
 ## Project setup
 
 ```bash
