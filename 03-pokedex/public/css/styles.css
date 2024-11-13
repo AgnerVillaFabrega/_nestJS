@@ -1,0 +1,10 @@
+html, body{
+    padding: 20px;
+    background-color: rgb(182, 182, 182);
+}
+
+h1{
+    font-size: 20px;
+    color: rgb(160, 106, 210);
+    font-family: 'Courier New', Courier, monospace;
+}
