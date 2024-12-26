@@ -1,7 +1,10 @@
+import { TypeOrmModule } from '@nestjs/typeorm';
 import { Module } from '@nestjs/common';
+
+import { AuthModule } from 'src/auth/auth.module';
+
 import { ProductsService } from './products.service';
 import { ProductsController } from './products.controller';
-import { TypeOrmModule } from '@nestjs/typeorm';
 import { Product,ProductImage } from './entities';
 
 @Module({
@@ -11,8 +14,9 @@ import { Product,ProductImage } from './entities';
     TypeOrmModule.forFeature([
       // Se importan todas las entidades del proyecto
       Product,
-      ProductImage
-    ])
+      ProductImage,
+    ]),
+    AuthModule,
   ],
   exports:[
     ProductsService,

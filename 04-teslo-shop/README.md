@@ -11,8 +11,8 @@
 ```
 docker compose up -d
 ```
-6. Ejecutar SEED (Realizar peticion a:)
+6. Levarntar servicios: ```yarn start:dev```
+7. Ejecutar SEED (Realizar peticion a:)
 ```
 http://localhost:3000/api/seed
 ```
-7. Levarntar servicios: ```yarn start:dev```
