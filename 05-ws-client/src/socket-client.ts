@@ -4,6 +4,7 @@ let socket: Socket;
 
 export const connectToServer = (token:string) => {
     
+    //! SI el back esta desplegado se debe utilizar la url asignada 
     const manager = new Manager('http://localhost:3000/socket.io/socket.io.js', {
         extraHeaders: {
             hola: 'mundo',
